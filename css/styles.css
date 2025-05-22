@@ -286,11 +286,11 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 }
 
 .post-title {
-    margin-bottom: 0.1rem; /* Reduce space below the title */
+    margin-bottom: 0.5rem; /* Reduce space below the title */
 }
 
 .post-meta {
-    margin-top: 0.3rem; /* Reduce space above the metadata */
+    margin-top: 0.5rem; /* Reduce space above the metadata */
 }
 
 pre,
