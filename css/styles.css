@@ -281,7 +281,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 .post-image {
     width: 100%;
     height: auto;
-    margin-bottom: 7px;
+    margin-bottom: 5px;
     border-radius: 8px;
 }
 
