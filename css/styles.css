@@ -286,7 +286,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 }
 
 .post-title {
-    margin-bottom: 0.3rem; /* Reduce space below the title */
+    margin-bottom: 0.5rem; /* Reduce space below the title */
 }
 
 .post-meta {
