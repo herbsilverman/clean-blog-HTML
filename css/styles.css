@@ -290,7 +290,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 }
 
 .post-meta {
-    margin-top: 0.5rem; /* Reduce space above the metadata */
+    margin-top: 1.5rem; /* Reduce space above the metadata */
 }
 
 pre,
