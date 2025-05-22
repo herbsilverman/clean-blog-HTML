@@ -278,6 +278,12 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   text-decoration: underline;
 }
 
+.post-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
 
 pre,
 code,
