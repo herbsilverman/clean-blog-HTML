@@ -292,14 +292,33 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 .post-meta {
     margin-top: 0.5rem; /* Reduce space above the metadata */
 }
-
-.nav-link i.fas.fa-search {
-    color: #0369a1; /* Search nav */ 
-    transition: color 0.3s ease;
+ 
+.nav-spacer {
+    height: 0px; /* Adjust as needed */
+    background-color: #212529;
 }
 
-.nav-link:hover i.fas.fa-search {
-    color: #023e58; /* Search nav hover */ 
+#mainNav {
+    background-color: #212529;
+    height: 100px;
+    display: flex;
+    align-items: center; /* Vertically center nav content */
+    padding: 0 1rem;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 1rem;
+}
+
+.navbar-toggler {
+    color: white;
+    border: none;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
 }
 
 pre,
