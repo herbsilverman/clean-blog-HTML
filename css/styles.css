@@ -293,6 +293,15 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     margin-top: 0.5rem; /* Reduce space above the metadata */
 }
 
+.nav-link i.fas.fa-search {
+    color: #0369a1; /* Search nav */ 
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover i.fas.fa-search {
+    color: #023e58; /* Search nav hover */ 
+}
+
 pre,
 code,
 kbd,
